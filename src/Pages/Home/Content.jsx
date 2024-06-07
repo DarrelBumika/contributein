@@ -38,11 +38,11 @@ function Content() {
                         <div className='w-auto h-full flex flex-col absolute'>
                             <div className='w-full h-[85%] flex flex-col justify-center items-center gap-16'>
                                 <div className='flex flex-col justify-center items-center font-poppins text-primary-white text-[57px] font-semibold gap-[27px]'>
-                                    <text>Make your interior more</text>
-                                    <text>Minimalistic & Modern</text>
+                                    <text>Make your ideas come true</text>
+                                    <text>Empowering Innovation Together</text>
                                 </div>
                                 <div className='w-[80%] flex justify-center items-center font-poppins text-primary-white text-lg font-normal gap-7'>
-                                    <text className='text-center'>Turn your room with Aftern.oon into a lot more minimalistic and modern with ease and speed</text>
+                                    <text className='text-center'>Bring your ideas to life with ContributeIn, a platform that empowers your innovations with ease and efficiency</text>
                                 </div>
                             </div>
                             <div className='w-full h-[15%] flex justify-center'>
