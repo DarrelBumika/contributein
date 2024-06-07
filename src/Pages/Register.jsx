@@ -1,6 +1,6 @@
 import Logo from '../assets/logo.png'
 import TextLink from '../components/TextLink'
-import Input from '../components/Input'
+import TextInput from '../components/TextInput'
 import Button from '../components/Button'
 import RegisterIllustration from '../assets/register.svg'
 
@@ -20,16 +20,16 @@ function Register() {
                             </div>
                             <div className='flex flex-col gap-6'>
                                 <div className='flex gap-4'>
-                                    <Input label='First Name' className='w-[260px]'/>
-                                    <Input label='Last Name' className='w-[260px]'/>
+                                    <TextInput label='First Name' className='w-[260px]'/>
+                                    <TextInput label='Last Name' className='w-[260px]'/>
                                 </div>
                                 <div className='w-auto h-auto'>
-                                    <Input label='Email address' className='w-[534px]'/>
+                                    <TextInput label='Email address' className='w-[534px]'/>
                                 </div>
                                 <div className='flex flex-col gap-2'>
                                     <div className='flex gap-4'>
-                                        <Input label='Password' className='w-[260px]'/>
-                                        <Input label='Confirm your password' className='w-[260px]'/>
+                                        <TextInput label='Password' className='w-[260px]'/>
+                                        <TextInput label='Confirm your password' className='w-[260px]'/>
                                     </div>
                                     <div>
                                         <text className='font-poppins font-normal text-base text-stone-500'>Use 8 or more characters with a mix of letters, numbers & symbols</text>
