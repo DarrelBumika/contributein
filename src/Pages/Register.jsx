@@ -19,7 +19,7 @@ function Register() {
                                 </div>
                             </div>
                             <div className='flex flex-col gap-6'>
-                                <div className='flex gap-4'>
+                                <div className='grid grid-cols-2 gap-4'>
                                     <TextInput label='First Name' className='w-[260px]'/>
                                     <TextInput label='Last Name' className='w-[260px]'/>
                                 </div>
@@ -27,9 +27,9 @@ function Register() {
                                     <TextInput label='Email address' className='w-[534px]'/>
                                 </div>
                                 <div className='flex flex-col gap-2'>
-                                    <div className='flex gap-4'>
-                                        <TextInput label='Password' className='w-[260px]'/>
-                                        <TextInput label='Confirm your password' className='w-[260px]'/>
+                                    <div className='grid grid-cols-2 gap-4'>
+                                        <TextInput label='Password' className='w-full'/>
+                                        <TextInput label='Confirm your password' className='w-full'/>
                                     </div>
                                     <div>
                                         <text className='font-poppins font-normal text-base text-stone-500'>Use 8 or more characters with a mix of letters, numbers & symbols</text>
